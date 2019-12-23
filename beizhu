@@ -1,0 +1,2 @@
+1. Laravel 6.0 以后 php artisan vendor:publish --provider='Mews\Captcha\CaptchaServiceProvider' 这样没有效果
+php artisan vendor:publish --provider=Mews\Captcha\CaptchaServiceProvider 这样可以
