@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Models\Topic;
+use App\Observers\TopicObserver;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 
@@ -15,7 +17,6 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         //
-
     }
 
     /**
@@ -26,5 +27,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Schema::defaultStringLength(190);
+        Topic::observe(TopicObserver::class);
     }
 }
