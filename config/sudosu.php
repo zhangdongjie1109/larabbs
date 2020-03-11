@@ -16,7 +16,7 @@ return [
     |
      */
     
-    'allowed_tlds' => ['dev', 'local', 'test'],
+    'allowed_tlds' => ['dev', 'local', 'test','homestead'],
 
     /*
      * // 用户模型
