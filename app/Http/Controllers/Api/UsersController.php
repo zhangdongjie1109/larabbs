@@ -35,4 +35,17 @@ class UsersController extends Controller
 
         return new UserResource($user);
     }
+
+    public function list()
+    {
+        //dd(User::all());
+        //return UserResource::collection(User::all());
+        $user = User::query()->create([
+            'name'  => 'ccc',
+            'phone'  => '12345678912',
+            'password'  => '123qwe',
+        ]);
+        //dd($user);
+        return new UserResource($user);
+    }
 }
