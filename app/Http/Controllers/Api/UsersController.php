@@ -46,6 +46,7 @@ class UsersController extends Controller
             'password'  => '123qwe',
         ]);
         //dd($user);
+
         return new UserResource($user);
     }
 }
