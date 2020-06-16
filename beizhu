@@ -6,6 +6,9 @@ LTAI4Fctd7KJoY6wyxbh1pcN
 AccessKeySecret：
 IvumoG5cJHkGsPIfMoqegSsBAKwnJ0
 
+AccessKeyId	                AccessKeySecret
+LTAI4G2xYhSn9kmfS9GaB2Sr	xWHVlzr6Vgx1XsN88vmon1WHJsN2ZZ
+
 
 $sms = app('easysms');
 try {

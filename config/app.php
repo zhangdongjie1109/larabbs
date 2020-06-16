@@ -178,7 +178,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         App\Providers\EasySmsServiceProvider::class,
-        SocialiteProviders\Manager\ServiceProvider::class, // add
+        //SocialiteProviders\Manager\ServiceProvider::class, // add
 
     ],
 

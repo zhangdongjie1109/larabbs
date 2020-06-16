@@ -26,4 +26,13 @@ class CaptchasController extends Controller
 
         return response()->json($result)->setStatusCode(201);
     }
+
+    public function test()
+    {
+        $accessToken = '';
+        $openid = '';
+        $driver = \Socialite::driver('weixin');
+        $driver->setOpenId($openid);
+        $driver->userFromToken($accessToken);
+    }
 }
