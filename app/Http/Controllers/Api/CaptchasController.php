@@ -34,5 +34,7 @@ class CaptchasController extends Controller
         $driver = \Socialite::driver('weixin');
         $driver->setOpenId($openid);
         $driver->userFromToken($accessToken);
+
+        \Auth::guard('api')->login($user);
     }
 }
