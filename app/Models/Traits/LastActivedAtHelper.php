@@ -8,8 +8,8 @@
 
 namespace App\Models\Traits;
 
-use Redis;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Redis;
 
 trait LastActivedAtHelper
 {
