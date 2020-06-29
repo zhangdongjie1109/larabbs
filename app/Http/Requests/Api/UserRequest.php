@@ -2,6 +2,8 @@
 
 namespace App\Http\Requests\Api;
 
+use Illuminate\Validation\Rule;
+
 class UserRequest extends FormRequest
 {
     /**
@@ -31,7 +33,7 @@ class UserRequest extends FormRequest
                 ];
                 break;
         }
-
+        //Rule::exists();
     }
 
     public function attributes()
