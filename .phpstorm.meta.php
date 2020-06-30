@@ -5,7 +5,7 @@ namespace PHPSTORM_META {
 
    /**
     * PhpStorm Meta file, to provide autocomplete information for PhpStorm
-    * Generated on 2020-06-28 14:24:04.
+    * Generated on 2020-06-30 17:31:40.
     *
     * @author Barry vd. Heuvel <barryvdh@gmail.com>
     * @see https://github.com/barryvdh/laravel-ide-helper
@@ -62,6 +62,7 @@ namespace PHPSTORM_META {
         'Spatie\Permission\Contracts\Permission' => \Spatie\Permission\Models\Permission::class,
         'Spatie\Permission\Contracts\Role' => \Spatie\Permission\Models\Role::class,
         'Spatie\Permission\PermissionRegistrar' => \Spatie\Permission\PermissionRegistrar::class,
+        'Spatie\QueryBuilder\QueryBuilderRequest' => \Spatie\QueryBuilder\QueryBuilderRequest::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'active' => \HieuLe\Active\Active::class,
         'admin_validator' => \Frozennode\Administrator\Validator::class,
@@ -260,6 +261,7 @@ namespace PHPSTORM_META {
         'Spatie\Permission\Contracts\Permission' => \Spatie\Permission\Models\Permission::class,
         'Spatie\Permission\Contracts\Role' => \Spatie\Permission\Models\Role::class,
         'Spatie\Permission\PermissionRegistrar' => \Spatie\Permission\PermissionRegistrar::class,
+        'Spatie\QueryBuilder\QueryBuilderRequest' => \Spatie\QueryBuilder\QueryBuilderRequest::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'active' => \HieuLe\Active\Active::class,
         'admin_validator' => \Frozennode\Administrator\Validator::class,
@@ -458,6 +460,7 @@ namespace PHPSTORM_META {
         'Spatie\Permission\Contracts\Permission' => \Spatie\Permission\Models\Permission::class,
         'Spatie\Permission\Contracts\Role' => \Spatie\Permission\Models\Role::class,
         'Spatie\Permission\PermissionRegistrar' => \Spatie\Permission\PermissionRegistrar::class,
+        'Spatie\QueryBuilder\QueryBuilderRequest' => \Spatie\QueryBuilder\QueryBuilderRequest::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'active' => \HieuLe\Active\Active::class,
         'admin_validator' => \Frozennode\Administrator\Validator::class,
@@ -656,6 +659,7 @@ namespace PHPSTORM_META {
         'Spatie\Permission\Contracts\Permission' => \Spatie\Permission\Models\Permission::class,
         'Spatie\Permission\Contracts\Role' => \Spatie\Permission\Models\Role::class,
         'Spatie\Permission\PermissionRegistrar' => \Spatie\Permission\PermissionRegistrar::class,
+        'Spatie\QueryBuilder\QueryBuilderRequest' => \Spatie\QueryBuilder\QueryBuilderRequest::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'active' => \HieuLe\Active\Active::class,
         'admin_validator' => \Frozennode\Administrator\Validator::class,
@@ -854,6 +858,7 @@ namespace PHPSTORM_META {
         'Spatie\Permission\Contracts\Permission' => \Spatie\Permission\Models\Permission::class,
         'Spatie\Permission\Contracts\Role' => \Spatie\Permission\Models\Role::class,
         'Spatie\Permission\PermissionRegistrar' => \Spatie\Permission\PermissionRegistrar::class,
+        'Spatie\QueryBuilder\QueryBuilderRequest' => \Spatie\QueryBuilder\QueryBuilderRequest::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'active' => \HieuLe\Active\Active::class,
         'admin_validator' => \Frozennode\Administrator\Validator::class,
@@ -1052,6 +1057,7 @@ namespace PHPSTORM_META {
         'Spatie\Permission\Contracts\Permission' => \Spatie\Permission\Models\Permission::class,
         'Spatie\Permission\Contracts\Role' => \Spatie\Permission\Models\Role::class,
         'Spatie\Permission\PermissionRegistrar' => \Spatie\Permission\PermissionRegistrar::class,
+        'Spatie\QueryBuilder\QueryBuilderRequest' => \Spatie\QueryBuilder\QueryBuilderRequest::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'active' => \HieuLe\Active\Active::class,
         'admin_validator' => \Frozennode\Administrator\Validator::class,
@@ -1250,6 +1256,7 @@ namespace PHPSTORM_META {
         'Spatie\Permission\Contracts\Permission' => \Spatie\Permission\Models\Permission::class,
         'Spatie\Permission\Contracts\Role' => \Spatie\Permission\Models\Role::class,
         'Spatie\Permission\PermissionRegistrar' => \Spatie\Permission\PermissionRegistrar::class,
+        'Spatie\QueryBuilder\QueryBuilderRequest' => \Spatie\QueryBuilder\QueryBuilderRequest::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'active' => \HieuLe\Active\Active::class,
         'admin_validator' => \Frozennode\Administrator\Validator::class,
@@ -1448,6 +1455,7 @@ namespace PHPSTORM_META {
         'Spatie\Permission\Contracts\Permission' => \Spatie\Permission\Models\Permission::class,
         'Spatie\Permission\Contracts\Role' => \Spatie\Permission\Models\Role::class,
         'Spatie\Permission\PermissionRegistrar' => \Spatie\Permission\PermissionRegistrar::class,
+        'Spatie\QueryBuilder\QueryBuilderRequest' => \Spatie\QueryBuilder\QueryBuilderRequest::class,
         'Whoops\Handler\HandlerInterface' => \Facade\Ignition\ErrorPage\IgnitionWhoopsHandler::class,
         'active' => \HieuLe\Active\Active::class,
         'admin_validator' => \Frozennode\Administrator\Validator::class,
