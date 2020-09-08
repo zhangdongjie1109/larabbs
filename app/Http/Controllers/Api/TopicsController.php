@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Http\Queries\TopicQuery;
 use App\Http\Requests\Api\TopicRequest;
 use App\Http\Resources\TopicResource;
 use App\Models\Topic;
@@ -13,7 +14,7 @@ use Spatie\QueryBuilder\QueryBuilder;
 
 class TopicsController extends Controller
 {
-    public function index(Request $request,Topic $topic)
+    public function index(Request $request,Topic $topic, TopicQuery $query)
     {
         /*$query = $topic->query();
 
@@ -28,7 +29,7 @@ class TopicsController extends Controller
 
         return TopicResource::collection($topics);*/
 
-        $topics = QueryBuilder::for(Topic::class)
+        /*$topics = QueryBuilder::for(Topic::class)
             ->allowedIncludes('user','category')
             ->allowedFilters([
                 'title',
@@ -37,6 +38,9 @@ class TopicsController extends Controller
             ])
             ->paginate();
 
+        return TopicResource::collection($topics);*/
+
+        $topics = $query->paginate();
         return TopicResource::collection($topics);
     }
 
@@ -66,9 +70,9 @@ class TopicsController extends Controller
         return response(null,204);
     }
 
-    public function userIndex(Request $request,User $user)
+    public function userIndex(Request $request,User $user, TopicQuery $query)
     {
-        $query = $user->topics()->getQuery();
+        /*$query = $user->topics()->getQuery();
 
         $topics = QueryBuilder::for($query)
             ->allowedIncludes('user','category')
@@ -79,6 +83,21 @@ class TopicsController extends Controller
             ])
             ->paginate();
 
+        return TopicResource::collection($topics);*/
+
+        $topics = $query->where('user_id',$user->id)->paginate();
         return TopicResource::collection($topics);
+    }
+
+    public function show($topicId, TopicQuery $query)
+    {
+        /*$topic = QueryBuilder::for(Topic::class)
+            ->allowedIncludes('user','category')
+            ->findOrFail($topicId);
+
+        return new TopicResource($topic);*/
+
+        $topic = $query->findOrFail($topicId);
+        return new TopicResource($topic);
     }
 }
