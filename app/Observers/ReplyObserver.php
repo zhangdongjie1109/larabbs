@@ -19,7 +19,7 @@ class ReplyObserver
     public function created(Reply $reply)
     {
 //        $reply->topic->increment('reply_count',1);
-
+        //dd($reply->topic->user);
         $reply->topic->updateReplyCount();
 
         // 通知话题作者有新的评论
