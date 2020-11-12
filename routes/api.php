@@ -18,6 +18,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::prefix('v1')->namespace('Api')
+    ->middleware('change-locale')
     ->name('api.v1.')
     ->group(function (){
 
