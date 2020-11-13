@@ -179,7 +179,7 @@ return [
 
         App\Providers\EasySmsServiceProvider::class,
         //SocialiteProviders\Manager\ServiceProvider::class, // add
-
+        App\Providers\JpushServiceProvider::class,
     ],
 
     /*
